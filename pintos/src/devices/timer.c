@@ -18,8 +18,8 @@
 #if TIMER_FREQ < 19
 #error 8254 timer requires TIMER_FREQ >= 19
 #endif
-#if TIMER_FREQ > 1000
-#error TIMER_FREQ <= 1000 recommended
+#if TIMER_FREQ > 999
+#error TIMER_FREQ <= 999 recommended
 #endif
 
 /* Number of timer ticks since OS booted. */
